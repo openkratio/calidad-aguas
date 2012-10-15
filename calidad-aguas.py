@@ -1,13 +1,12 @@
-import csv
-import sys
 import urllib2
 
 from BeautifulSoup import BeautifulSoup
+from calidadaguas import CSVWriter
 
 beaches = []
 
 # We don't know the number of beaches, we have to bruteforce it.
-for i in range(1, 50):
+for i in range(1110,1111):
   # Get the beach info.
   data_soup = BeautifulSoup(urllib2.urlopen('http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do?codZona=' + str(i)).read())
   # Get the beach samples.
@@ -50,13 +49,5 @@ for i in range(1, 50):
   print 'Data obtained for' , beach['Nombre'], ' with id ', i
   beaches.append(beach)
 
-# Got the data, let's write it using the template.
-with open('templates/calidad-aguas.template.csv', 'r') as template:
-  template_reader = csv.DictReader(template)
-  with open('data/calidad-aguas.csv', 'wb') as csvfile:
-    writer = csv.DictWriter(csvfile, delimiter=';', quotechar='|', fieldnames = template_reader.fieldnames)
-    writer.writeheader()
-    for beach in beaches:
-      writer.writerow(beach)
-    csvfile.close()
-  template.close()
+  writer = CSVWriter.CSVWriter()
+  writer.dump_data(beaches)
