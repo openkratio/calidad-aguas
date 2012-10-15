@@ -23,19 +23,24 @@ class NayadeScraping:
 
     sample_points = samples_soup.findAll('td', {'class' : 'nombreCampoNI'});
     points = []
+    samples = []
     for i in range(0, len(sample_points), 6):
       sample_point = SamplePoint.SamplePoint()
       sample_point.name = sample_points[i].string
-      geodata = data_soup.find(text = re.compile(sample_point.name.replace('PLAYA  ', '').strip()))
+      point = data_soup.find(text = re.compile(sample_point.name.replace('PLAYA  ', '').strip()))
 
       # There are two empty tds. This is awesomic.
+      geodata = point.findNext('td', {'class' : 'valorCampoI'})
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
+      sample_point.x = geodata.string
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
-      sample.x = geodata.string
-      geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
-      sample.y = geodata.string
+      sample_point.y = geodata.string
       points.append(sample_point)
+
+      #print point.parent.parent
+      #sys.exit(0)
+
     # We cannot rely in the order in which tds are created, because some data is variable.
     # Parse again looking for the UTM coordinates.
 
