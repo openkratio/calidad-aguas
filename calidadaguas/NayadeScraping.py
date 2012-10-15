@@ -24,9 +24,9 @@ class NayadeScraping:
     sample_points = samples_soup.findAll('td', {'class' : 'nombreCampoNI'});
     points = []
     for i in range(0, len(sample_points), 6):
-      sample = SamplePoint.SamplePoint()
-      sample.name = sample_points[i].string
-      geodata = data_soup.find(text = re.compile(sample.name.replace('PLAYA  ', '').strip()))
+      sample_point = SamplePoint.SamplePoint()
+      sample_point.name = sample_points[i].string
+      geodata = data_soup.find(text = re.compile(sample_point.name.replace('PLAYA  ', '').strip()))
 
       # There are two empty tds. This is awesomic.
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
@@ -35,7 +35,7 @@ class NayadeScraping:
       sample.x = geodata.string
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
       sample.y = geodata.string
-      points.append(sample)
+      points.append(sample_point)
     # We cannot rely in the order in which tds are created, because some data is variable.
     # Parse again looking for the UTM coordinates.
 
@@ -52,11 +52,11 @@ class NayadeScraping:
       beach[key] = value.strip().encode("utf-8")     
 
     # Save a row for each sample point.
-    for sample in points:
-      print 'Data obtained for' , beach['Nombre'], 'with id', id, 'and sample', sample.name
-      beach['punto_muestreo'] = sample.name
-      beach['utm_x'] = sample.x
-      beach['utm_y'] = sample.y
+    for point in points:
+      print 'Data obtained for' , beach['Nombre'], 'with id', id, 'and sample', point.name
+      beach['punto_muestreo'] = point.name
+      beach['utm_x'] = point.x
+      beach['utm_y'] = point.y
 
 
 
