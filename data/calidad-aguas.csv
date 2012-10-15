@@ -1,2 +1,2 @@
-Comunidad,Provincia,Municipio,Nombre,punto_muestreo,adoptada_por,utm_x,utm_y,fecha_toma,escherichia_coli,enterococo,observaciones
-Valencia,Valencia,,,,,,,,,,
+Comunidad;Provincia;Municipio;Nombre;punto_muestreo;adoptada_por;utm_x;utm_y;fecha_toma;escherichia_coli;enterococo;observaciones
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1;penyaskito (scrapping);556425.39;4810879.87;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
