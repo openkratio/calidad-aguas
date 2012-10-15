@@ -1,7 +1,5 @@
 import csv
 
-fieldnames = {'Comunidad','Provincia','Municipio','Nombre', 'punto_muestreo', 'adoptada_por', 'utm_x', 'utm_y', 'fecha_toma', 
-    'escherichia_coli', 'enterococo', 'observaciones'}
 
 with open('templates/calidad-aguas.template.csv', 'r') as template:
   template_reader = csv.DictReader(template)
