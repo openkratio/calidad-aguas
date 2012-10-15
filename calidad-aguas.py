@@ -6,12 +6,12 @@ from BeautifulSoup import BeautifulSoup
 
 beaches = []
 
-# We know the number of beaches.
-for i in range(1, 10):
+# We don't know the number of beaches, we have to bruteforce it.
+for i in range(1, 50):
   # Get the beach info.
   data_soup = BeautifulSoup(urllib2.urlopen('http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do?codZona=' + str(i)).read())
   # Get the beach samples.
-  tomas_soup = BeautifulSoup(urllib2.urlopen('http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do?pestanya=3&codZona=' + str(i)).read())
+  samples_soup = BeautifulSoup(urllib2.urlopen('http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do?pestanya=3&codZona=' + str(i)).read())
 
   # This is ugly as hell, but I'm not used to BeautifulSoup.
   data_values = data_soup.findAll('td', {'class' : 'valorCampoI'})
@@ -20,9 +20,13 @@ for i in range(1, 10):
   if data_values[5].string == None:
     continue
 
+  # We cannot rely in the order in which tds are created, because some data is variable.
+  # Parse again looking for the UTM coordinates.
   x = data_soup.find(text="Coordenadas UTM");
   geo = x.parent.parent.findAll('td', {'class':'valorCampoI'})
-  tomas_values = tomas_soup.findAll('td', {'class' : 'valorCampoI'})
+
+  # Parse the samples table.
+  sample_values = samples_soup.findAll('td', {'class' : 'valorCampoI'})
 
   # Generate the beach structure as it will be written in csv columns.
   beach = { 
@@ -34,19 +38,16 @@ for i in range(1, 10):
     'adoptada_por': 'penyaskito (scrapping)',
     'utm_x': geo[0].string,
     'utm_y': geo[1].string,
-    'fecha_toma': tomas_values[0].string,
-    'escherichia_coli': tomas_values[1].string,
-    'enterococo': tomas_values[2].string,
-    'observaciones': tomas_values[3].string,
+    'fecha_toma': sample_values[0].string,
+    'escherichia_coli': sample_values[1].string,
+    'enterococo': sample_values[2].string,
+    'observaciones': sample_values[3].string,
   }
   # Normalize data. We need to strip bad chars that could act as separators and fix the encoding.
   for key, value in beach.iteritems():
-    if value is None:
-      print key
-    else:
       beach[key] = value.strip().encode("utf-8")
   # Some user feedback, we should be doing this on batches.
-  print 'Data obtained for' , beach['Nombre']
+  print 'Data obtained for' , beach['Nombre'], ' with id ', i
   beaches.append(beach)
 
 # Got the data, let's write it using the template.
