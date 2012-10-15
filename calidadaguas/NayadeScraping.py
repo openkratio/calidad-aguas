@@ -1,6 +1,10 @@
+import copy
+import re
+import sys
 import urllib2
 
 from BeautifulSoup import BeautifulSoup 
+from calidadaguas import SamplePoint
 
 class NayadeScraping:
   beaches = []
@@ -17,13 +21,23 @@ class NayadeScraping:
     if data_values[5].string == None:
       return
 
+    sample_points = samples_soup.findAll('td', {'class' : 'nombreCampoNI'});
+    points = []
+    for i in range(0, len(sample_points), 6):
+      sample = SamplePoint.SamplePoint()
+      sample.name = sample_points[i].string
+      geodata = data_soup.find(text = re.compile(sample.name.replace('PLAYA  ', '').strip()))
+
+      # There are two empty tds. This is awesomic.
+      geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
+      geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
+      geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
+      sample.x = geodata.string
+      geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
+      sample.y = geodata.string
+      points.append(sample)
     # We cannot rely in the order in which tds are created, because some data is variable.
     # Parse again looking for the UTM coordinates.
-    x = data_soup.find(text="Coordenadas UTM");
-    geo = x.parent.parent.findAll('td', {'class':'valorCampoI'})
-
-    # Parse the samples table.
-    sample_values = samples_soup.findAll('td', {'class' : 'valorCampoI'})
 
     # Generate the beach structure as it will be written in csv columns.
     beach = { 
@@ -31,18 +45,20 @@ class NayadeScraping:
       'Provincia': data_values[1].string,
       'Municipio': data_values[2].string,
       'Nombre': data_values[5].string,
-      'punto_muestreo': data_values[18].string,
       'adoptada_por': 'penyaskito (scrapping)',
-      'utm_x': geo[0].string,
-      'utm_y': geo[1].string,
-      'fecha_toma': sample_values[0].string,
-      'escherichia_coli': sample_values[1].string,
-      'enterococo': sample_values[2].string,
-      'observaciones': sample_values[3].string,
     }
     # Normalize data. We need to strip bad chars that could act as separators and fix the encoding.
     for key, value in beach.iteritems():
-      beach[key] = value.strip().encode("utf-8")
-    # Some user feedback, we should be doing this on batches.
-    print 'Data obtained for' , beach['Nombre'], ' with id ', id
-    self.beaches.append(beach) 
+      beach[key] = value.strip().encode("utf-8")     
+
+    # Save a row for each sample point.
+    for sample in points:
+      print 'Data obtained for' , beach['Nombre'], 'with id', id, 'and sample', sample.name
+      beach['punto_muestreo'] = sample.name
+      beach['utm_x'] = sample.x
+      beach['utm_y'] = sample.y
+
+
+
+      # Save the sample point
+      self.beaches.append(copy.copy(beach))
