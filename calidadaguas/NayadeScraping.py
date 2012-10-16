@@ -4,6 +4,7 @@ import sys
 import urllib2
 
 from BeautifulSoup import BeautifulSoup 
+from calidadaguas import Sample
 from calidadaguas import SamplePoint
 
 class NayadeScraping:
@@ -21,7 +22,7 @@ class NayadeScraping:
     if data_values[5].string == None:
       return
 
-    sample_points = samples_soup.findAll('td', {'class' : 'nombreCampoNI'});
+    sample_points = samples_soup.findAll('td', {'class' : 'nombreCampoNI'})
     points = []
     samples = []
     for i in range(0, len(sample_points), 6):
@@ -38,8 +39,18 @@ class NayadeScraping:
       sample_point.y = geodata.string
       points.append(sample_point)
 
-      #print point.parent.parent
-      #sys.exit(0)
+      # Parse the current samples.
+      tds = sample_points[i].findAllNext('td', {'class' : 'valorCampoI'})
+      for j in range(0, len(tds), 4):
+        sample = Sample.Sample()
+        sample.date = tds[j].string
+        sample.escherichia_coli = tds[j+1].string
+        sample.enterococo = tds[j+2].string
+        sample.notes = tds[j+3].string
+        sample.samplepoint = sample_point
+        samples.append(sample)
+        if tds[j+3].findNext('td').findNext('td').findNext('td').get('class', None) == 'nombreCampoNI':
+          break
 
     # We cannot rely in the order in which tds are created, because some data is variable.
     # Parse again looking for the UTM coordinates.
@@ -57,13 +68,15 @@ class NayadeScraping:
       beach[key] = value.strip().encode("utf-8")     
 
     # Save a row for each sample point.
-    for point in points:
-      print 'Data obtained for' , beach['Nombre'], 'with id', id, 'and sample', point.name
-      beach['punto_muestreo'] = point.name
-      beach['utm_x'] = point.x
-      beach['utm_y'] = point.y
-
-
+    for sample in samples:
+      print 'Data obtained for' , beach['Nombre'], 'with id', id, 'and sample', sample.samplepoint.name, sample.date
+      beach['punto_muestreo'] = sample.samplepoint.name
+      beach['utm_x'] = sample.samplepoint.x
+      beach['utm_y'] = sample.samplepoint.y
+      beach['fecha_toma'] = sample.date
+      beach['escherichia_coli'] = sample.escherichia_coli
+      beach['enterococo'] = sample.enterococo
+      beach['observaciones'] = sample.notes
 
       # Save the sample point
       self.beaches.append(copy.copy(beach))
