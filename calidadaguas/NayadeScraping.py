@@ -1,4 +1,5 @@
 import copy
+import logging
 import re
 import sys
 import urllib2
@@ -10,6 +11,10 @@ from calidadaguas import SamplePoint
 class NayadeScraping:
   beaches = []
 
+  def __init__(self):
+    logging.getLogger('NayadeScraping')
+    logging.basicConfig(filename='scraping.log',level=logging.DEBUG)
+
   def scrap(self, id):
     data_soup = BeautifulSoup(urllib2.urlopen('http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do?codZona=' + str(id)).read())
     # Get the beach samples.
@@ -20,6 +25,7 @@ class NayadeScraping:
 
     # Check is this a valid ID. There are some keys that are not present, in that case, we continue.
     if data_values[5].string == None:
+      logging.debug('Data could not be loaded from id %d', id)
       return
 
     sample_points = samples_soup.findAll('td', {'class' : 'nombreCampoNI'})
@@ -31,7 +37,7 @@ class NayadeScraping:
       # Are we done? Some points have incidents reported, we ignore them.
       if sample_points[i].string.strip() == 'Fecha Cierre Incidente':
         break
-      point = data_soup.find(text = re.compile(sample_points[i].string.strip()[-5:]))
+      point = data_soup.find(text = re.compile(sample_points[i].string.strip()[-5:].replace('(','').replace(')','')))
       # There are two empty tds. This is awesomic.
       geodata = point.findNext('td', {'class' : 'valorCampoI'})
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
@@ -52,8 +58,8 @@ class NayadeScraping:
         sample.samplepoint = sample_point
         samples.append(sample)
         
-        #if tds[j+3].findNext('td').findNext('td').findNext('td').get('class', None) == 'nombreCampoNI':
-        #  break
+        if tds[j+3].findNext('td').findNext('td').findNext('td') == None or tds[j+3].findNext('td').findNext('td').findNext('td').get('class', None) == 'nombreCampoNI':
+          break
 
     # We cannot rely in the order in which tds are created, because some data is variable.
     # Parse again looking for the UTM coordinates.
@@ -72,7 +78,7 @@ class NayadeScraping:
 
     # Save a row for each sample point.
     for sample in samples:
-      print 'Data obtained for' , beach['Nombre'], 'with id', id, 'and sample', sample.samplepoint.name, sample.date
+      logging.info('Data obtained for %s with id %d and sample %s %s', beach['Nombre'], id, sample.samplepoint.name, sample.date)
       beach['punto_muestreo'] = sample.samplepoint.name
       beach['utm_x'] = sample.samplepoint.x
       beach['utm_y'] = sample.samplepoint.y
