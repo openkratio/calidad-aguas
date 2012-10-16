@@ -28,8 +28,7 @@ class NayadeScraping:
     for i in range(0, len(sample_points), 6):
       sample_point = SamplePoint.SamplePoint()
       sample_point.name = sample_points[i].string
-      point = data_soup.find(text = re.compile(sample_point.name.replace('PLAYA  ', '').strip()))
-
+      point = data_soup.find(text = re.compile(sample_point.name[-5:].strip()))
       # There are two empty tds. This is awesomic.
       geodata = point.findNext('td', {'class' : 'valorCampoI'})
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
