@@ -27,8 +27,11 @@ class NayadeScraping:
     samples = []
     for i in range(0, len(sample_points), 6):
       sample_point = SamplePoint.SamplePoint()
-      sample_point.name = sample_points[i].string[-5:]
-      point = data_soup.find(text = re.compile(sample_points[i].string[-5:].strip()))
+      sample_point.name = sample_points[i].string.strip()[-3:]
+      # Are we done? Some points have incidents reported, we ignore them.
+      if sample_points[i].string.strip() == 'Fecha Cierre Incidente':
+        break
+      point = data_soup.find(text = re.compile(sample_points[i].string.strip()[-5:]))
       # There are two empty tds. This is awesomic.
       geodata = point.findNext('td', {'class' : 'valorCampoI'})
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
@@ -48,8 +51,9 @@ class NayadeScraping:
         sample.notes = tds[j+3].string
         sample.samplepoint = sample_point
         samples.append(sample)
-        if tds[j+3].findNext('td').findNext('td').findNext('td').get('class', None) == 'nombreCampoNI':
-          break
+        
+        #if tds[j+3].findNext('td').findNext('td').findNext('td').get('class', None) == 'nombreCampoNI':
+        #  break
 
     # We cannot rely in the order in which tds are created, because some data is variable.
     # Parse again looking for the UTM coordinates.
