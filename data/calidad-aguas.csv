@@ -1,2 +1,936 @@
 Comunidad;Provincia;Municipio;Nombre;punto_muestreo;adoptada_por;utm_x;utm_y;fecha_toma;escherichia_coli;enterococo;observaciones
-Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1;penyaskito (scrapping);556425.39;4810879.87;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;26/09/2011;13 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;12/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;29/08/2011;34 UFC/100 mL;70 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;16/08/2011;27 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;01/08/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;18/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;04/07/2011;21 UFC/100 mL;29 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;06/06/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;27/09/2010;8 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;13/09/2010;3 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;30/08/2010;2 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;16/08/2010;6 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;02/08/2010;4 UFC/100 mL;28 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;19/07/2010;60 UFC/100 mL;130 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;05/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;21/06/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;07/06/2010;3 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;14/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;31/08/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;17/08/2009;12 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;03/08/2009;3 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;20/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;06/07/2009;4 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;22/06/2009;1 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA RASO - SESELLE;PLAYA RASO - SESELLE PM1  ;penyaskito (scrapping);562880.3;4808857.95;08/06/2009;70 UFC/100 mL;66 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;26/09/2011;14 UFC/100 mL;65 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;12/09/2011;275 UFC/100 mL;102 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;29/08/2011;350 UFC/100 mL;325 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;16/08/2011;1060 UFC/100 mL;350 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;01/08/2011;32 UFC/100 mL;29 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;18/07/2011;185 UFC/100 mL;66 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;04/07/2011;660 UFC/100 mL;340 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;20/06/2011;300 UFC/100 mL;350 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;06/06/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;27/09/2010;19 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;13/09/2010;5 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;30/08/2010;5 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;16/08/2010;68 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;02/08/2010;1 UFC/100 mL;23 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;19/07/2010;960 UFC/100 mL;335 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;05/07/2010;160 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;21/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;07/06/2010;6 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;14/09/2009;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;31/08/2009;24 UFC/100 mL;142 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;17/08/2009;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;03/08/2009;65 UFC/100 mL;44 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;20/07/2009;14 UFC/100 mL;6 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;06/07/2009;245 UFC/100 mL;66 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;22/06/2009;8 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA ARES;PLAYA ARES PM1  ;penyaskito (scrapping);561580.79;4808851.15;15/06/2009;20 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;12/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;29/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;16/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;01/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;18/07/2011;12 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;04/07/2011;38 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;06/06/2011;134 UFC/100 mL;106 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;27/09/2010;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;13/09/2010;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;30/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;16/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;02/08/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;19/07/2010;54 UFC/100 mL;61 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;05/07/2010;6 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;21/06/2010;6 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;07/06/2010;10 UFC/100 mL;38 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;14/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;31/08/2009;10 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;17/08/2009;16 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;03/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;20/07/2009;38 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;06/07/2009;23 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;22/06/2009;2 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Ares;PLAYA CHANTEIRO;PLAYA CHANTEIRO PM1  ;penyaskito (scrapping);556425.39;4810879.87;08/06/2009;65 UFC/100 mL;56 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;26/09/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;12/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;29/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;16/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;01/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;18/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;06/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;20/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;06/09/2010;44 UFC/100 mL;21 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;23/08/2010;14 UFC/100 mL;41 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;09/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;12/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;28/06/2010;1 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;14/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;07/09/2009;6 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;10/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;27/07/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;13/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA VALCOBO;PLAYA VALCOBO PM1  ;penyaskito (scrapping);537860;4796300;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;12/09/2011;13 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;29/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;16/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;01/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;18/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;06/06/2011;16 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;20/09/2010;19 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;06/09/2010;2 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;09/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;12/07/2010;2 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;28/06/2010;5 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;14/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;10/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;27/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;13/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA O REIRO;PLAYA O REIRO PM1  ;penyaskito (scrapping);535815.85;4795777.08;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;12/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;29/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;16/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;01/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;18/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;20/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;06/09/2010;10 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;09/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;12/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;28/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;14/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;10/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;27/07/2009;1 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;13/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A HUCHA;PLAYA A HUCHA PM1  ;penyaskito (scrapping);538132.58;4796526.96;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;26/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;12/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;29/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;16/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;01/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;18/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;20/09/2010;20 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;06/09/2010;11 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;09/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;12/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;28/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;14/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;10/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;27/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;13/07/2009;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA A SALSA;PLAYA A SALSA PM1  ;penyaskito (scrapping);538750;4797000;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;26/09/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;12/09/2011;17 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;29/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;16/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;01/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;18/07/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;06/06/2011;13 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;20/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;06/09/2010;13 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;09/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;12/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;28/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;14/06/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;24/08/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;10/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;27/07/2009;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;13/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;15/06/2009;160 UFC/100 mL;51 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Arteixo;PLAYA COMBOUZAS;PLAYA COMBOUZAS PM1  ;penyaskito (scrapping);537100;4795879;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;26/09/2011;54 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;12/09/2011;12 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;29/08/2011;36 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;16/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;01/08/2011;96 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;18/07/2011;130 UFC/100 mL;84 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;04/07/2011;120 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;20/06/2011;240 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;06/06/2011;24 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;20/09/2010;64 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;06/09/2010;330 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;09/08/2010;130 UFC/100 mL;42 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;26/07/2010;5 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;12/07/2010;11 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;28/06/2010;10 UFC/100 mL;60 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;14/06/2010;260 UFC/100 mL;245 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;01/06/2010;90 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;07/09/2009;20 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;24/08/2009;50 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;10/08/2009;24 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;27/07/2009;400 UFC/100 mL;134 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;13/07/2009;32 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;29/06/2009;20 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;15/06/2009;80 UFC/100 mL;42 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;01/06/2009;160 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;26/09/2011;140 UFC/100 mL;64 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;12/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;29/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;16/08/2011;14 UFC/100 mL;36 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;01/08/2011;48 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;18/07/2011;46 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;04/07/2011;78 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;06/06/2011;16 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;20/09/2010;32 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;06/09/2010;260 UFC/100 mL;112 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;09/08/2010;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;12/07/2010;5 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;28/06/2010;12 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;14/06/2010;130 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;01/06/2010;40 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;24/08/2009;24 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;10/08/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;27/07/2009;85 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;13/07/2009;21 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;15/06/2009;18 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM1  ;penyaskito (scrapping);562064.65;4799310.34;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;26/09/2011;140 UFC/100 mL;64 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;12/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;29/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;16/08/2011;14 UFC/100 mL;36 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;01/08/2011;48 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;18/07/2011;46 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;04/07/2011;78 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;06/06/2011;16 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;20/09/2010;32 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;06/09/2010;260 UFC/100 mL;112 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;23/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;09/08/2010;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;26/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;12/07/2010;5 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;28/06/2010;12 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;14/06/2010;130 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;01/06/2010;40 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;24/08/2009;24 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;10/08/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;27/07/2009;85 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;13/07/2009;21 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;29/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;15/06/2009;18 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA GANDARÍO;PLAYA GANDARÍO PM2  ;penyaskito (scrapping);561663.34;4799392.15;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;26/09/2011;96 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;12/09/2011;215 UFC/100 mL;98 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;29/08/2011;44 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;16/08/2011;82 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;01/08/2011;96 UFC/100 mL;33 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;18/07/2011;72 UFC/100 mL;51 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;04/07/2011;26 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;20/06/2011;124 UFC/100 mL;49 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;06/06/2011;36 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;20/09/2010;24 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;06/09/2010;800 UFC/100 mL;210 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;23/08/2010;8 UFC/100 mL;6 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;09/08/2010;54 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;26/07/2010;104 UFC/100 mL;28 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;12/07/2010;65 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;28/06/2010;130 UFC/100 mL;660 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;14/06/2010;215 UFC/100 mL;70 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;01/06/2010;58 UFC/100 mL;19 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;07/09/2009;300 UFC/100 mL;56 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;24/08/2009;22 UFC/100 mL;35 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;10/08/2009;680 UFC/100 mL;95 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;27/07/2009;44 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;13/07/2009;42 UFC/100 mL;19 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;29/06/2009;8 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;15/06/2009;60 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;26/09/2011;290 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;12/09/2011;116 UFC/100 mL;45 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;29/08/2011;14 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;16/08/2011;17 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;01/08/2011;78 UFC/100 mL;29 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;18/07/2011;58 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;04/07/2011;10 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;20/06/2011;68 UFC/100 mL;52 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;06/06/2011;30 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;20/09/2010;12 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;06/09/2010;860 UFC/100 mL;160 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;23/08/2010;6 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;09/08/2010;15 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;26/07/2010;325 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;12/07/2010;900 UFC/100 mL;280 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;28/06/2010;165 UFC/100 mL;540 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;14/06/2010;255 UFC/100 mL;90 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;01/06/2010;54 UFC/100 mL;34 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;07/09/2009;400 UFC/100 mL;90 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;24/08/2009;26 UFC/100 mL;75 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;10/08/2009;820 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;27/07/2009;54 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;13/07/2009;48 UFC/100 mL;21 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;29/06/2009;11 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;15/06/2009;64 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM1  ;penyaskito (scrapping);564042.97;4797711.76;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;26/09/2011;290 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;12/09/2011;116 UFC/100 mL;45 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;29/08/2011;14 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;16/08/2011;17 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;01/08/2011;78 UFC/100 mL;29 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;18/07/2011;58 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;04/07/2011;10 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;20/06/2011;68 UFC/100 mL;52 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;06/06/2011;30 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;20/09/2010;12 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;06/09/2010;860 UFC/100 mL;160 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;23/08/2010;6 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;09/08/2010;15 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;26/07/2010;325 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;12/07/2010;900 UFC/100 mL;280 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;28/06/2010;165 UFC/100 mL;540 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;14/06/2010;255 UFC/100 mL;90 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;01/06/2010;54 UFC/100 mL;34 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;07/09/2009;400 UFC/100 mL;90 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;24/08/2009;26 UFC/100 mL;75 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;10/08/2009;820 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;27/07/2009;54 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;13/07/2009;48 UFC/100 mL;21 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;29/06/2009;11 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;15/06/2009;64 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Bergondo;PLAYA O PEDRIDO;PLAYA O PEDRIDO PM2  ;penyaskito (scrapping);564154.61;4797632.3;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;12/09/2011;18 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;29/08/2011;12 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;17/08/2011;43 UFC/100 mL;13 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;01/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;18/07/2011;32 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;20/06/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;21/09/2010;6 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;07/09/2010;48 UFC/100 mL;44 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;24/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;27/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;13/07/2010;60 UFC/100 mL;26 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;29/06/2010;2 UFC/100 mL;3 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;15/06/2010;225 UFC/100 mL;34 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;01/06/2010;15 UFC/100 mL;6 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;07/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;24/08/2009;6 UFC/100 mL;8 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;11/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;27/07/2009;2 UFC/100 mL;4 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;13/07/2009;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;29/06/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;15/06/2009;3 UFC/100 mL;32 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Boiro;PLAYA MAясNS;PLAYA MAясNS PM1  ;penyaskito (scrapping);512251.05;4720023.72;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;12/09/2011;52 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;29/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;17/08/2011;10 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;01/08/2011;136 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;18/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;04/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;21/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;07/09/2010;90 UFC/100 mL;90 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;24/08/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;27/07/2010;46 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;13/07/2010;16 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;29/06/2010;12 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;15/06/2010;2 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;07/09/2009;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;11/08/2009;10 UFC/100 mL;21 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;27/07/2009;3 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;13/07/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;29/06/2009;7 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA CARRAGUEIROS;PLAYA CARRAGUEIROS PM1  ;penyaskito (scrapping);510438.66;4718037.06;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;26/09/2011;15 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;12/09/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;29/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;17/08/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;01/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;18/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;04/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;06/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;21/09/2010;66 UFC/100 mL;29 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;07/09/2010;16 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;24/08/2010;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;10/08/2010;26 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;28/07/2010;135 UFC/100 mL;36 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;13/07/2010;65 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;29/06/2010;10 UFC/100 mL;40 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;15/06/2010;60 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;01/06/2010;6 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;07/09/2009;55 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;11/08/2009;2 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;27/07/2009;1 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;13/07/2009;54 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;29/06/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;15/06/2009;5 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA LADEIRA DO CHAZO;PLAYA LADEIRA DO CHAZO PM1  ;penyaskito (scrapping);511520.88;4718093.57;01/06/2009;8 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;12/09/2011;52 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;29/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;17/08/2011;10 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;01/08/2011;136 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;18/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;04/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;20/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;21/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;07/09/2010;90 UFC/100 mL;90 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;24/08/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;27/07/2010;46 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;13/07/2010;16 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;29/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;15/06/2010;2 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;07/09/2009;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;24/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;11/08/2009;10 UFC/100 mL;21 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;27/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;13/07/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;29/06/2009;7 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RETORTA;PLAYA RETORTA PM1  ;penyaskito (scrapping);511252.52;4717438.62;01/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;26/09/2011;12 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;12/09/2011;34 UFC/100 mL;27 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;29/08/2011;12 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;17/08/2011;31 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;01/08/2011;40 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;18/07/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;04/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;20/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;06/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;21/09/2010;57 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;07/09/2010;36 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;24/08/2010;14 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;27/07/2010;11 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;13/07/2010;140 UFC/100 mL;54 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;29/06/2010;2 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;15/06/2010;270 UFC/100 mL;46 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;01/06/2010;22 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;07/09/2009;300 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;24/08/2009;6 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;11/08/2009;2 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;27/07/2009;56 UFC/100 mL;39 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;13/07/2009;35 UFC/100 mL;43 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;29/06/2009;20 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;15/06/2009;10 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PORTOMOURO;PLAYA PORTOMOURO PM1  ;penyaskito (scrapping);513421.12;4720449.31;01/06/2009;3 UFC/100 mL;29 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;26/09/2011;42 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;12/09/2011;66 UFC/100 mL;32 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;29/08/2011;175 UFC/100 mL;135 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;17/08/2011;46 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;01/08/2011;10 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;18/07/2011;1200 UFC/100 mL;340 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;04/07/2011;33 UFC/100 mL;31 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;20/06/2011;26 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;21/09/2010;72 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;07/09/2010;760 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;24/08/2010;440 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;10/08/2010;15 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;27/07/2010;24 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;13/07/2010;350 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;29/06/2010;14 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;15/06/2010;140 UFC/100 mL;92 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;01/06/2010;6 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;07/09/2009;46 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;24/08/2009;36 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;11/08/2009;6 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;27/07/2009;6 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;13/07/2009;25 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;29/06/2009;21 UFC/100 mL;32 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;15/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA RIBEIRA GRANDE;PLAYA RIBEIRA GRANDE PM1  ;penyaskito (scrapping);509353;4718014;01/06/2009;2 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;26/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;13/09/2011;52 UFC/100 mL;64 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;29/08/2011;10 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;17/08/2011;10 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;01/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;18/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;04/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;20/06/2011;10 UFC/100 mL;57 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;06/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;21/09/2010;1 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;07/09/2010;40 UFC/100 mL;49 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;24/08/2010;16 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;10/08/2010;1 UFC/100 mL;21 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;27/07/2010;16 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;13/07/2010;19 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;29/06/2010;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;15/06/2010;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;07/09/2009;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;24/08/2009;23 UFC/100 mL;70 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;11/08/2009;1 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;27/07/2009;6 UFC/100 mL;31 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;13/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;29/06/2009;10 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;15/06/2009;3 UFC/100 mL;45 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PIŃEIRÓN;PLAYA PIŃEIRÓN PM1  ;penyaskito (scrapping);509915;4717876;01/06/2009;44 UFC/100 mL;33 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;26/09/2011;350 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;19/09/2011;115 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;29/08/2011;17 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;17/08/2011;1020 UFC/100 mL;245 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;01/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;18/07/2011;1400 UFC/100 mL;325 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;04/07/2011;780 UFC/100 mL;315 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;20/06/2011;140 UFC/100 mL;110 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;06/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;21/09/2010;62 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;07/09/2010;1400 UFC/100 mL;350 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;24/08/2010;1200 UFC/100 mL;360 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;10/08/2010;180 UFC/100 mL;335 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;27/07/2010;160 UFC/100 mL;82 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;13/07/2010;260 UFC/100 mL;84 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;29/06/2010;34 UFC/100 mL;52 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;15/06/2010;50 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;01/06/2010;90 UFC/100 mL;116 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;07/09/2009;22 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;24/08/2009;390 UFC/100 mL;196 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;11/08/2009;130 UFC/100 mL;180 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;27/07/2009;265 UFC/100 mL;194 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;20/07/2009;1360 UFC/100 mL;360 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;29/06/2009;76 UFC/100 mL;40 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;15/06/2009;86 UFC/100 mL;63 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Boiro;PLAYA PERALTO;PLAYA PERALTO PM1  ;penyaskito (scrapping);508222.84;4720760.8;01/06/2009;82 UFC/100 mL;100 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;19/09/2011;28 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;11/09/2011;28 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;22/08/2011;60 UFC/100 mL;41 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;08/08/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;26/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;11/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;27/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;13/06/2011;12 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;01/06/2011;126 UFC/100 mL;62 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;20/09/2010;10 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;06/09/2010;34 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;23/08/2010;46 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;09/08/2010;8 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;26/07/2010;16 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;12/07/2010;36 UFC/100 mL;28 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;28/06/2010;7 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;14/06/2010;72 UFC/100 mL;48 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;01/06/2010;14 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;07/09/2009;3 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;24/08/2009;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;10/08/2009;28 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;27/07/2009;24 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;13/07/2009;8 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;29/06/2009;3 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;15/06/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA A MAGDALENA;PLAYA A MAGDALENA PM1  ;penyaskito (scrapping);567078.1;4807943.5;01/06/2009;18 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;19/09/2011;18 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;05/09/2011;13 UFC/100 mL;27 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;22/08/2011;104 UFC/100 mL;46 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;08/08/2011;10 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;26/07/2011;25 UFC/100 mL;62 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;11/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;27/06/2011;26 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;13/06/2011;22 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;01/06/2011;122 UFC/100 mL;60 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;20/09/2010;13 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;06/09/2010;58 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;23/08/2010;67 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;09/08/2010;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;26/07/2010;4 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;12/07/2010;30 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;28/06/2010;1 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;14/06/2010;41 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;01/06/2010;32 UFC/100 mL;28 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;07/09/2009;12 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;24/08/2009;23 UFC/100 mL;34 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;10/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;27/07/2009;84 UFC/100 mL;96 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;13/07/2009;3 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;29/06/2009;4 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;15/06/2009;38 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Cabanas;PLAYA CHAMOSO;PLAYA CHAMOSO PM1  ;penyaskito (scrapping);566503.29;4808045.13;01/06/2009;10 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;20/09/2011;10 UFC/100 mL;28 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;06/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;23/08/2011;96 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;09/08/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;27/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;12/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;14/06/2011;10 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;01/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;21/09/2010;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;06/09/2010;280 UFC/100 mL;124 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;24/08/2010;8 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;27/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;13/07/2010;170 UFC/100 mL;62 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;29/06/2010;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;15/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;01/06/2010;19 UFC/100 mL;23 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;08/09/2009;210 UFC/100 mL;48 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;25/08/2009;4 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;11/08/2009;6 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;28/07/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;14/07/2009;4 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;30/06/2009;18 UFC/100 mL;13 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;16/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LINGUNDE;PLAYA LINGUNDE PM1  ;penyaskito (scrapping);486039.3;4776293.91;02/06/2009;26 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;20/09/2011;100 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;06/09/2011;1360 UFC/100 mL;335 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;23/08/2011;330 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;09/08/2011;44 UFC/100 mL;40 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;27/07/2011;350 UFC/100 mL;42 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;12/07/2011;140 UFC/100 mL;350 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;28/06/2011;10 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;14/06/2011;170 UFC/100 mL;96 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;01/06/2011;290 UFC/100 mL;134 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;21/09/2010;150 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;13/09/2010;3 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;24/08/2010;94 UFC/100 mL;104 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;10/08/2010;16 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;27/07/2010;6 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;13/07/2010;920 UFC/100 mL;200 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;29/06/2010;132 UFC/100 mL;350 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;15/06/2010;24 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;01/06/2010;200 UFC/100 mL;122 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;08/09/2009;290 UFC/100 mL;275 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;25/08/2009;150 UFC/100 mL;130 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;11/08/2009;26 UFC/100 mL;48 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;28/07/2009;22 UFC/100 mL;48 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;14/07/2009;1260 UFC/100 mL;480 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;30/06/2009;400 UFC/100 mL;160 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;16/06/2009;20 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA DA VILA;PLAYA AREA DA VILA PM1  ;penyaskito (scrapping);485685.95;4776339.84;02/06/2009;115 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;20/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;06/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;23/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;09/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;27/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;12/07/2011;16 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;14/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;01/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;21/09/2010;38 UFC/100 mL;40 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;06/09/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;24/08/2010;26 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;10/08/2010;6 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;27/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;13/07/2010;32 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;29/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;15/06/2010;3 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;01/06/2010;48 UFC/100 mL;8 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;08/09/2009;255 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;25/08/2009;160 UFC/100 mL;96 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;11/08/2009;160 UFC/100 mL;97 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;28/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;14/07/2009;8 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;30/06/2009;6 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;16/06/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA LOBEIRAS;PLAYA LOBEIRAS PM1  ;penyaskito (scrapping);490670.49;4782674.91;02/06/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;20/09/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;06/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;23/08/2011;52 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;09/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;27/07/2011;28 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;12/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;14/06/2011;13 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;01/06/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;21/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;06/09/2010;120 UFC/100 mL;36 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;24/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;10/08/2010;39 UFC/100 mL;24 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;27/07/2010;22 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;13/07/2010;41 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;29/06/2010;5 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;15/06/2010;68 UFC/100 mL;64 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;01/06/2010;27 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;08/09/2009;44 UFC/100 mL;39 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;25/08/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;11/08/2009;16 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;28/07/2009;1 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;14/07/2009;8 UFC/100 mL;6 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;30/06/2009;74 UFC/100 mL;53 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;16/06/2009;1 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O ARIŃO;PLAYA O ARIŃO PM1  ;penyaskito (scrapping);487314;4775408;02/06/2009;9 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;20/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;06/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;23/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;09/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;27/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;12/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;14/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;01/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;21/09/2010;2 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;06/09/2010;13 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;24/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;27/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;13/07/2010;19 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;29/06/2010;5 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;15/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;08/09/2009;30 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;25/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;11/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;28/07/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;14/07/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;30/06/2009;62 UFC/100 mL;9 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;16/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA A AREIŃA BRANCA;PLAYA A AREIŃA BRANCA PM1  ;penyaskito (scrapping);486620;4775577;02/06/2009;4 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;20/09/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;06/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;23/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;09/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;27/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;12/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;14/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;01/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;21/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;06/09/2010;4 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;24/08/2010;90 UFC/100 mL;36 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;27/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;13/07/2010;14 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;29/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;15/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;08/09/2009;2 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;25/08/2009;7 UFC/100 mL;22 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;11/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;28/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;14/07/2009;6 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;30/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;16/06/2009;12 UFC/100 mL;5 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA O LAGO - CAMARIŃAS;PLAYA O LAGO - CAMARIŃAS PM1  ;penyaskito (scrapping);483972;4775612;01/06/2009;1 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;20/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;06/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;23/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;09/08/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;27/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;12/07/2011;1 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;14/06/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;01/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;21/09/2010;16 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;06/09/2010;240 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;24/08/2010;12 UFC/100 mL;32 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;10/08/2010;335 UFC/100 mL;58 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;27/07/2010;150 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;13/07/2010;325 UFC/100 mL;124 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;29/06/2010;130 UFC/100 mL;26 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;15/06/2010;128 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;01/06/2010;130 UFC/100 mL;76 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;08/09/2009;21 UFC/100 mL;95 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;25/08/2009;11 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;11/08/2009;8 UFC/100 mL;15 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;28/07/2009;3 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;14/07/2009;2 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;30/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;15/06/2009;6 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AROU;PLAYA AROU PM1  ;penyaskito (scrapping);491479.75;4781701.72;02/06/2009;1 UFC/100 mL;34 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;20/09/2011;140 UFC/100 mL;46 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;06/09/2011;260 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;23/08/2011;50 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;09/08/2011;520 UFC/100 mL;55 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;27/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;12/07/2011;13 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;28/06/2011;20 UFC/100 mL;45 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;14/06/2011;12 UFC/100 mL;11 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;01/06/2011;5 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;21/09/2010;180 UFC/100 mL;112 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;06/09/2010;350 UFC/100 mL;118 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;24/08/2010;60 UFC/100 mL;60 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;10/08/2010;1400 UFC/100 mL;325 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;27/07/2010;880 UFC/100 mL;330 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;13/07/2010;85 UFC/100 mL;30 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;29/06/2010;100 UFC/100 mL;250 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;15/06/2010;1160 UFC/100 mL;325 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;08/09/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;25/08/2009;80 UFC/100 mL;52 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;17/08/2009;20 UFC/100 mL;16 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;28/07/2009;20 UFC/100 mL;43 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;14/07/2009;335 UFC/100 mL;126 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;30/06/2009;5 UFC/100 mL;14 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;16/06/2009;180 UFC/100 mL;140 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA CAMELLE;PLAYA CAMELLE PM1  ;penyaskito (scrapping);492705.9;4781033.78;02/06/2009;1360 UFC/100 mL;300 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;20/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;06/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;23/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;09/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;27/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;12/07/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;28/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;14/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;01/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;21/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;06/09/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;24/08/2010;31 UFC/100 mL;88 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;10/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;27/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;13/07/2010;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;29/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;15/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;01/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;08/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;25/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;11/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;28/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;14/07/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;30/06/2009;1 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;16/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Camarińas;PLAYA AREA LONGA - CAMARIŃAS;PLAYA AREA LONGA - CAMARIŃAS PM1  ;penyaskito (scrapping);485049.53;4779303.05;02/06/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;19/09/2011;13 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;05/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;22/08/2011;86 UFC/100 mL;44 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;08/08/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;26/07/2011;52 UFC/100 mL;48 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;11/07/2011;136 UFC/100 mL;56 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;27/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;13/06/2011;44 UFC/100 mL;32 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;01/06/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;27/09/2010;7 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;13/09/2010;5 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;30/08/2010;37 UFC/100 mL;41 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;16/08/2010;8 UFC/100 mL;6 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;02/08/2010;26 UFC/100 mL;7 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;19/07/2010;104 UFC/100 mL;68 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;05/07/2010;5 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;21/06/2010;140 UFC/100 mL;120 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;07/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;14/09/2009;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;31/08/2009;84 UFC/100 mL;37 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;17/08/2009;36 UFC/100 mL;6 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;03/08/2009;10 UFC/100 mL;4 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;20/07/2009;37 UFC/100 mL;18 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;06/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;22/06/2009;160 UFC/100 mL;95 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RAZO;PLAYA RAZO PM1  ;penyaskito (scrapping);523450;4793310;08/06/2009;4 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;19/09/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;05/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;22/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;08/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;26/07/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;11/07/2011;10 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;27/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;13/06/2011;18 UFC/100 mL;16 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;01/06/2011;68 UFC/100 mL;49 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;27/09/2010;3 UFC/100 mL;4 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;13/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;30/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;16/08/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;02/08/2010;17 UFC/100 mL;6 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;19/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;05/07/2010;3 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;21/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;07/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;14/09/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;31/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;17/08/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;03/08/2009;3 UFC/100 mL;2 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;20/07/2009;31 UFC/100 mL;63 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;06/07/2009;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;22/06/2009;10 UFC/100 mL;8 UFC/100 mL;Zona Apta para el baЯo
+Galicia;CoruЯa (A);Carballo;PLAYA SAмяAS;PLAYA SAмяAS PM1  ;penyaskito (scrapping);525300;4794000;08/06/2009;34 UFC/100 mL;30 UFC/100 mL;Zona Apta para el baЯo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;19/09/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;05/09/2011;1 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;22/08/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;08/08/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;26/07/2011;12 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;11/07/2011;10 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;27/06/2011;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;13/06/2011;26 UFC/100 mL;20 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;01/06/2011;118 UFC/100 mL;72 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;27/09/2010;3 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;13/09/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;30/08/2010;70 UFC/100 mL;23 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;16/08/2010;19 UFC/100 mL;12 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;02/08/2010;4 UFC/100 mL;3 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;19/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;05/07/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;21/06/2010;1 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;07/06/2010;6 UFC/100 mL;2 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;14/09/2009;2 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;31/08/2009;4 UFC/100 mL;10 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;17/08/2009;4 UFC/100 mL;1 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;03/08/2009;34 UFC/100 mL;9 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;20/07/2009;60 UFC/100 mL;80 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;06/07/2009;90 UFC/100 mL;51 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;22/06/2009;16 UFC/100 mL;17 UFC/100 mL;Zona Apta para el bańo
+Galicia;Coruńa (A);Carballo;PLAYA RIA DE BALDAIO;PLAYA RIA DE BALDAIO PM1  ;penyaskito (scrapping);527200;4794500;08/06/2009;150 UFC/100 mL;60 UFC/100 mL;Zona Apta para el bańo
