@@ -45,6 +45,8 @@ class NayadeScraping:
       sample_point.x = geodata.string
       geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
       sample_point.y = geodata.string
+      geodata = geodata.findNext('td', {'class' : 'valorCampoI'})
+      sample_point.zone = geodata.string
       points.append(sample_point)
 
       # Parse the current samples.
@@ -80,6 +82,7 @@ class NayadeScraping:
     for sample in samples:
       logging.info('Data obtained for %s with id %d and sample %s %s', beach['Nombre'], id, sample.samplepoint.name, sample.date)
       beach['punto_muestreo'] = sample.samplepoint.name
+      beach['utm_zone'] = sample.samplepoint.zone
       beach['utm_x'] = sample.samplepoint.x
       beach['utm_y'] = sample.samplepoint.y
       beach['fecha_toma'] = sample.date
