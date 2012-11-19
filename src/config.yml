@@ -1,0 +1,7 @@
+# nivel de concurrencia
+nthreads: 16
+
+# ficheros
+ultimas: ../data/calidad-aguas.csv # ultimas mediciones
+historico: ../data/calidad-aguas-historico.csv # historico de mediciones
+log: ../data/nayade.log # log
