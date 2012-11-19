@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# nayade.rb versión 0.3 (17/11/2012)
+# nayade.rb versión 0.4 (19/11/2012)
 
 # Scraping al Sistema de Información Nacional de Aguas de Baño (Náyade)
 # para la iniciativa #adoptaunaplaya - http://adoptaunaplaya.es/site/
@@ -28,6 +28,7 @@ NAYADE_URL = "http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do"
 MAX_PLAYAS = 1976
 
 @count = 0
+@atribucion = {}
 
 class NayadeError < StandardError
 end
@@ -36,6 +37,10 @@ class String
   def td_scan(label, prefix="")
     # expresión regular para obtener el valor de la siguiente celda a la que tiene una cadena de texto dada
     self.scan(/#{label}:<.+\s+.+>#{prefix}(.+)</)
+  end
+
+  def delete_unicode
+    self.delete("^\u{0000}-\u{007F}")
   end
 end
 
@@ -75,8 +80,13 @@ def playa(cod)
     submuestreos.each_index do |i|
       raise NayadeError, "Faltan coordenadas." if x[i].nil?
       
+      # Conservar atribuciones
+      municipio1 = municipio.split("/")[0] # por el formato "Alicante/Alacant"
+      key = (municipio1 + nombre + pm[i][0]).delete_unicode.upcase # key = "NOMBREPLAYAPM"
+      adoptada_por = @atribucion[key] || "nayade.rb"
+
       arrayout = [comunidad, provincia, municipio, nombre,
-        pm[i][0], "nayade.rb", x[i][0], y[i][0], huso[i][0]]
+        pm[i][0], adoptada_por, x[i][0], y[i][0], huso[i][0]]
 
       # expresión regular para obtener todas las mediciones
       toma = Regexp.new('valorCampoI">(.+)<.+\s+.+' * 4)
@@ -121,7 +131,16 @@ config = YAML.load_file("config.yml")
 file_ult = config["ultimas"]
 file_hist = config["historico"]
 file_log = config["log"]
+file_crowd = config["crowdsourcing"]
 nthreads = config["nthreads"]
+
+# Leer atribuciones adoptada_por
+CSV.foreach(file_crowd, :encoding => "utf-8") do |row|
+  if row[5] && row[6]
+    key = row[2..4].join.delete_unicode.upcase # key = "NOMBREPLAYAPM"
+    @atribucion[key] = row[5]
+  end
+end
 
 # Argumentos de entrada (utilizados para testeo)
 first = ARGV[0] ? ARGV[0].to_i : 1
