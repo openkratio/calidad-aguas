@@ -25,7 +25,7 @@ require 'csv'
 require 'yaml'
 
 NAYADE_URL = "http://nayade.msc.es/Splayas/ciudadano/ciudadanoVerZonaAction.do"
-MAX_PLAYAS = 1976
+MAX_PLAYAS = 1990
 
 @count = 0
 @atribucion = {}
