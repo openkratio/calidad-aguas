@@ -40,7 +40,8 @@
     <script src="../theme/js/holder.js"></script>
     <script src="../theme/js/jquery.dotdotdot.min.js"></script>
   </head>
-  <body> <!-- NAVBAR
+  <body>
+    <!-- NAVBAR
     ================================================== -->
     <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
     <div class="container navbar-wrapper">
@@ -68,25 +69,52 @@
       <div class="container">
         <div class="row">
           <div itemscope="" itemtype="http://schema.org/Person" class="span12">
-            <h1>Titulo</h1>
-            <p>Explicación breve sobre lo que se está hablando</p>
+            <h1>Residuos vertidos al agua</h1>
+            <p>Los residuos, que son producto de las actividades industriales,
+              se vierten al aire, tierra y agua. Estamos intentando establecer
+              una <strong>correlación entre los vertidos residuales al agua y
+                la <a href="./calidad.html">calidad de las aguas de baño</a>.</strong>
+              En el siguiente mapa figuran las <strong> industrias</strong> que
+              vierten residuos de <a href="http://es.wikipedia.org/wiki/Carbono_org%C3%A1nico_total">Carbono
+                Orgánico</a> a zonas de baño cercanas. Los residuos de carbono
+              orgánico tienen incidencia en la formación de colonias de <em>
+                Escherichia Coli y Enterococo Intestinal</em>, las dos bacterias
+              que se toman como indicadores para la medición de la calidad de
+              aguas de baño.</p>
             <a href="http://openkratio.github.io/calidad-aguas/calidad-residuos.html"><img
                 src="../static/images/industrias.png"></a>
-            <h2>Titulo 2</h2>
-            <p>Explicar estadísticas y cosas interesantes acompañado de los
-              gráficos</p>
+            <p><br>
+            </p>
+            <p>¿Eres <em>medio</em><em>ambientólogo</em>? ¿Tienes conocimiento
+              en sistemas de ínformación geográfica (GIS) o análisis de datos? ¡<strong>Ayúdanos</strong>
+              a descubrir si los vertidos de residuos al agua están detrás de
+              las variaciones en la calidad de aguas de baño!. Puedes descargar
+              los datos en CSV desde la <a href="https://github.com/openkratio/calidad-aguas">forja
+                del proyecto</a>. Nuestras fuentes de datos son la <a href="www.eea.europa.eu/data-and-maps/data/bathing-water-directive-status-of-bathing-water-5">Agencia
+                Medioambiental Europea</a> y el <a href="www.eea.europa.eu/data-and-maps/data/member-states-reporting-art-7-under-the-european-pollutant-release-and-transfer-register-e-prtr-regulation-6">Registro
+                Europeo de Transferencias y Emisiones de Residuos.</a></p>
+            <a class="btn btn-large btn-inverse" href="mailto:openkratio@gmail.com?subject=Quiero%20echar%20una%20mano%20con%20las%20playas.">
+                Echar una mano <i class="icon-chevron-right"></i></a> 
+            <p><br>
+            </p>
+            <h2>Ranking de vertidos de carbono al agua</h2>
+            <p>En el siguiente gráfico figuran las 15 zonas geográficas en
+              España desde las cuales más cantidada (en kilogramos) de residuos
+              de carbono orgánico se han vertido al agua desde 2001 a 2012.</p>
             <iframe src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col2%2C+SUM%28col15%29+from+1DHDzusnSYZCKPz2wLWABDELc4eg5ZiCmVumeg3c+group+by+col2+order+by+SUM%28col15%29+desc+limit+15&amp;viz=GVIZ&amp;t=BAR&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;att=true&amp;width=1100&amp;height=385"
               frameborder="no" height="400" scrolling="no" width="1100"></iframe>
-            <h2>Titulo 2</h2>
-            <p>Explicar estadísticas y cosas interesantes acompañado de los
-              gráficos</p>
+            <h2>Listado de industrias</h2>
+            <p>En el cuadro de abajo se presenta el listado total industrias que
+              viertes residuos con carbono orgánico al agua. Puede observar
+              estos y más datos a través de la <a href="https://www.google.com/fusiontables/DataSource?docid=1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8">aplicación
+                de exploración de datos </a>(basada en Google Fusion
+              Tables).</p>
+            <p></p>
             <iframe src="https://www.google.com/fusiontables/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col17%2C+col2%2C+col1%2C+col7%2C+col13%2C+col15+from+1DHDzusnSYZCKPz2wLWABDELc4eg5ZiCmVumeg3c+order+by+col17+desc&amp;containerId=gviz_canvas"
               frameborder="no" height="700" scrolling="yes" width="1100"></iframe>
           </div>
         </div>
       </div>
-      <h2>Algunos datos</h2>
-      <p>Blabla</p>
       <!-- DISQUS THREAD -->
       <div id="disqus_thread"></div>
       <script type="text/javascript">
@@ -103,26 +131,33 @@
       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span
           class="logo-disqus">Disqus</span></a>
       <!-- DISQUS THREAD --> </div>
-      <!-- Project Info -->
-      <div class="row-fluid project">
-        <div class="span4 column">
-          <h4>Detalles Técnicos</h4>
-          <ul>
-            <li><strong>Fuente de datos</strong>: blabla</li>
-            <li><strong>Herramientas utilizadas</strong>: blabla</li>
-            <li><strong>Código Fuente</strong>: blabla</li>
-          </ul>
-        </div>
-        <div class="span4 column">
-          <h4>Agradecimientos</h4>
-          <ul>
-            <li>Balbla</li>
-            <li>Blabla</li>
-            <li>Blabla</li>
-          </ul>
-        </div>
-        <div class="span4 column"> </div>
+    <!-- Project Info -->
+    <div class="row-fluid project">
+      <div class="span4 column">
+        <h4>Detalles Técnicos</h4>
+        <ul>
+          <li><strong>Fuente de datos</strong>: <a href="www.eea.europa.eu/data-and-maps/data/bathing-water-directive-status-of-bathing-water-5">Agencia
+                Medioambiental Europea</a> y el <a href="www.eea.europa.eu/data-and-maps/data/member-states-reporting-art-7-under-the-european-pollutant-release-and-transfer-register-e-prtr-regulation-6">Registro
+                Europeo de Transferencias y Emisiones de Residuos.</a></li>
+          <li><strong>Código Fuente</strong>: <a href="https://github.com/openkratio/calidad-aguas">Webscraper
+              y datos en CSV</a></li>
+          <li><strong>Más información en</strong> el <a href="https://www.google.com/fusiontables/DataSource?docid=1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8">explorador
+              de datos Google Fusion Tables</a></li>
+        </ul>
       </div>
+      <div class="span4 column">
+        <h4>Agradecimientos</h4>
+        <ul>
+          <li>A todas las personas desinteresadas <a href="http://adoptaunaplaya.es">que
+              colaboraron con #adoptaunaplaya</a></li>
+          <li>A <a href="http://es.okfn.org">OKFN Spain</a> por su <a href="http://periodismodatos.okfn.es/hackathon/">hackathon
+              de periodismo de datos</a> donde se siguió trabajando esta app</li>
+          <li>A <a href="http://twitter.com/cabralens">Mar Cabra</a> por su
+            interés en el proyecto</li>
+        </ul>
+      </div>
+      <div class="span4 column"> </div>
+    </div>
     <!-- /Project Info -->
     <!-- FOOTER -->
     <footer>
