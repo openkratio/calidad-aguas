@@ -39,7 +39,8 @@
     <script src="../theme/js/holder.js"></script>
     <script src="../theme/js/jquery.dotdotdot.min.js"></script>
   </head>
-  <body> <!-- NAVBAR
+  <body>
+    <!-- NAVBAR
     ================================================== -->
     <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
     <div class="container navbar-wrapper">
@@ -67,24 +68,41 @@
       <div class="container">
         <div class="row">
           <div itemscope="" itemtype="http://schema.org/Person" class="span12">
-            <h1>Titulo</h1>
-            <p>Explicación breve sobre lo que se está hablando</p>
+            <h1>Banderas Azules en España</h1>
+            <p>La Bandera Azul es un galardón que otorga anualmente la <a href="http://www.fee-international.org/">Fundación
+                Europea de Educación Ambiental</a> (FEE) a las playas y puertos
+              que <a href="http://www.blueflag.org/menu/criteria/beaches">cumplen
+                una serie de condiciones </a>ambientales e instalaciones, tales
+              como información educativa medioambiental, calidad de las aguas de
+              baño, gestión medioambiental, seguridad y servicios. En 2013
+              fueron declaradas para España <a href="http://www.blueflag.org/menu/awarded-sites/2013/northern-hemisphere/spain"><strong>550
+                  playas</strong> con bandera azul por la FEE.</a> El <a href="http://www.magrama.gob.es/es/">Ministerio
+                de Agricultura, Alimentación y Medioambiente</a> (MAGRAMA) tiene
+              un <a href="http://www.magrama.gob.es/es/costas/servicios/guia-playas/">registro
+                de 499 playas con bandera azul,</a> que son las que mostramos a
+              continuación</p>
             <iframe src="https://www.google.com/fusiontables/embedviz?q=select+col5+from+1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8+where+col22+%3D+%27S%C3%AD%27&amp;viz=MAP&amp;h=false&amp;lat=37.03811617126398&amp;lng=-3.93702734375006&amp;t=1&amp;z=5&amp;l=col5&amp;y=2&amp;tmplt=2"
               frameborder="no" height="400" scrolling="no" width="1100"></iframe>
-            <h2>Titulo 2</h2>
-            <p>Explicar estadísticas y cosas interesantes acompañado de los
-              gráficos</p>
+            <h2>Algunos datos de interés</h2>
+            <p>Por número de playas, Galicia, Comunidad Valenciana, Cataluña,
+              Andalucía y Canarias son las regiones con mayor número de banderas
+              azules:</p>
             <iframe src="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col1%2C+count%28%29+from+1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8+where+col22+%3D+%27S%C3%AD%27+group+by+col1+order+by+count%28%29+desc+limit+100&amp;viz=GVIZ&amp;t=BAR&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;att=true&amp;width=1100&amp;height=285"
               frameborder="no" height="300" scrolling="no" width="1100"></iframe>
-            <h2>Titulo 3</h2>
-            <p>Datos crudos</p>
+            <p>No obstante, <a href="https://www.google.com/fusiontables/embedviz?containerId=gviz_canvas&amp;q=select+col1%2C+SUM%28col7%29+from+1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8+where+col22+%3D+%27S%C3%AD%27+group+by+col1+order+by+SUM%28col7%29+desc+limit+10&amp;viz=GVIZ&amp;t=BAR&amp;uiversion=2&amp;gco_forceIFrame=true&amp;gco_hasLabelsColumn=true&amp;width=500&amp;height=300">si
+                atendemos al nº de kilómetros de costa</a>, sería Comunidad
+              Valenciana la primera clasificada con más de 126 kilómetros de
+              costa con bandera Azul, seguido de Andalucía con 122 kilómetros.</p>
+            <h2>Listado de playas con bandera azul</h2>
+            <p>En el cuadro de abajo se presenta el listado total de páginas con
+              bandera azul. Puede observar estos y más datos a través de la <a
+                href="https://www.google.com/fusiontables/DataSource?docid=1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8">aplicación
+                de exploración de datos </a>(basada en Google Fusion Tables).</p>
             <iframe src="https://www.google.com/fusiontables/embedviz?viz=GVIZ&amp;t=TABLE&amp;q=select+col1%2C+col2%2C+col3%2C+col4%2C+col7%2C+col8%2C+col14%2C+col15%2C+col16+from+1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8+where+col22+%3D+%27S%C3%AD%27+order+by+col1+asc&amp;containerId=gviz_canvas"
               frameborder="no" height="700" scrolling="yes" width="1100"></iframe>
           </div>
         </div>
       </div>
-      <h2>Algunos datos</h2>
-      <p>Blabla</p>
       <!-- DISQUS THREAD -->
       <div id="disqus_thread"></div>
       <script type="text/javascript">
@@ -101,26 +119,32 @@
       <a href="http://disqus.com" class="dsq-brlink">comments powered by <span
           class="logo-disqus">Disqus</span></a>
       <!-- DISQUS THREAD --> </div>
-      <!-- Project Info -->
-      <div class="row-fluid project">
-        <div class="span4 column">
-          <h4>Detalles Técnicos</h4>
-          <ul>
-            <li><strong>Fuente de datos</strong>: blabla</li>
-            <li><strong>Herramientas utilizadas</strong>: blabla</li>
-            <li><strong>Código Fuente</strong>: blabla</li>
-          </ul>
-        </div>
-        <div class="span4 column">
-          <h4>Agradecimientos</h4>
-          <ul>
-            <li>Balbla</li>
-            <li>Blabla</li>
-            <li>Blabla</li>
-          </ul>
-        </div>
-        <div class="span4 column"> </div>
+    <!-- Project Info -->
+    <div class="row-fluid project">
+      <div class="span4 column">
+        <h4>Detalles Técnicos</h4>
+        <ul>
+          <li><strong>Fuente de datos</strong>: <a href="http://www.magrama.gob.es/es/costas/servicios/guia-playas/">Guia
+              de Playas MAGRAMA</a></li>
+          <li><strong>Código Fuente</strong>: <a href="https://github.com/openkratio/calidad-aguas">Webscraper
+              y datos en CSV</a></li>
+          <li><strong>Más información en</strong> el <a href="https://www.google.com/fusiontables/DataSource?docid=1-YtGubTbSAshR3JFSIyvU5XmvW3MSdIbINHt9O8">explorador
+              de datos Google Fusion Tables</a></li>
+        </ul>
       </div>
+      <div class="span4 column">
+        <h4>Agradecimientos</h4>
+        <ul>
+          <li>A todas las personas desinteresadas <a href="http://adoptaunaplaya.es">que
+              colaboraron con #adoptaunaplaya</a></li>
+          <li>A <a href="http://es.okfn.org">OKFN Spain</a> por su <a href="http://periodismodatos.okfn.es/hackathon/">hackathon
+              de periodismo de datos</a> donde se siguió trabajando esta app</li>
+          <li>A <a href="http://twitter.com/cabralens">Mar Cabra</a> por su
+            interés en el proyecto</li>
+        </ul>
+      </div>
+      <div class="span4 column"> </div>
+    </div>
     <!-- /Project Info -->
     <!-- FOOTER -->
     <footer>
