@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# nayade.rb versión 0.4 (19/11/2012)
+# nayade.rb versión 0.5 (01/09/2013)
 
 # Scraping al Sistema de Información Nacional de Aguas de Baño (Náyade)
 # para la iniciativa #adoptaunaplaya - http://adoptaunaplaya.es/site/
@@ -12,7 +12,7 @@
 # Fichero de configuración: config.yml
 
 # Explicación:
-# En Náyade cada zona de baño está numerada con un código entre 1 y 1976.
+# En Náyade cada zona de baño está numerada con un código entre 1 y 1990.
 # Este script pide las páginas con los datos de localización y muestreos de
 # cada zona de baño, extrae los valores y los guarda en ficheros CSV.
 # He usado expresiones regulares en vez de XPath debido a que en el HTML de
@@ -44,13 +44,30 @@ class String
   end
 end
 
+# Hace una petición web con reintentos en caso de fallo
+def nayade_get(uri)
+  tries = 5
+  begin
+    Net::HTTP.get URI.parse(uri)
+  rescue StandardError
+    tries -= 1
+    if tries > 0
+      sleep 10
+      retry
+    else
+      puts "Error en la petición al servidor, demasiados reintentos, pruebe en otro momento :("
+      exit
+    end
+  end
+end
+
 def playa(cod)
   ultimas = ""
   todas = ""
   log = ""
 
   begin
-    localizacion = Net::HTTP.get URI.parse(NAYADE_URL + "?codZona=#{cod}")
+    localizacion = nayade_get(NAYADE_URL + "?codZona=#{cod}")
     localizacion.encode!("UTF-8","ISO-8859-1")
 
     cpmn = ["Comunidad Autónoma", "Provincia", "Municipio", "Zona Agua Baño"]
@@ -71,7 +88,7 @@ def playa(cod)
       localizacion.td_scan(i)
     end
 
-    muestreos = Net::HTTP.get URI.parse(NAYADE_URL + "?codZona=#{cod}&pestanya=3")
+    muestreos = nayade_get(NAYADE_URL + "?codZona=#{cod}&pestanya=3")
     muestreos.encode!("UTF-8", "ISO-8859-1")
 
     submuestreos = muestreos.split("Punto Muestreo:")
